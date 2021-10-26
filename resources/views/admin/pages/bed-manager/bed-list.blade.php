@@ -15,7 +15,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Bed List</h6>
-                    <a href="add-bed.html" class="ms-text-primary">Add Bed</a>
+                    <a href="{{ url('admins/bed-manager/add-bed'); }}" class="ms-text-primary">Add Bed</a>
                 </div>
                 <div class="ms-panel-body">
                     <div class="table-responsive">

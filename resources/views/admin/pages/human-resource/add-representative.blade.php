@@ -17,7 +17,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Add Representative</h6>
-                    <a href="representative-list.html" class="ms-text-primary">Representative List</a>
+                    <a href="{{ url('admins/human-resource/representative-list'); }}" class="ms-text-primary">Representative List</a>
                 </div>
                 <div class="ms-panel-body">
                     <form class="needs-validation" novalidate>

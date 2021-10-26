@@ -17,7 +17,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Add Nurse</h6>
-                    <a href="nurse-list.html" class="ms-text-primary">Nurse List</a>
+                    <a href="{{ url('admins/human-resource/nurse-list'); }}" class="ms-text-primary">Nurse List</a>
                 </div>
                 <div class="ms-panel-body">
                     <form class="needs-validation" novalidate>

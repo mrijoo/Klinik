@@ -15,7 +15,7 @@
             <div class="ms-panel">
                <div class="ms-panel-header ms-panel-custome">
                   <h6>Notice List</h6>
-                  <a href="add-notice.html" class="ms-text-primary">Add Notice</a>
+                  <a href="{{ url('admins/notice/add-notice'); }}" class="ms-text-primary">Add Notice</a>
                </div>
                <div class="ms-panel-body">
                   <div class="table-responsive">

@@ -16,7 +16,7 @@
       <div class="col-xl-12 col-md-12">
             <div class="ms-panel">
                <div class="ms-panel-header ms-panel-custome">
-                  <h6>Add Patient</h6><a href="patient-list.html" class="ms-text-primary">Patient List </a>
+                  <h6>Add Patient</h6><a href="{{ url('admins/patient/patient-list'); }}" class="ms-text-primary">Patient List </a>
                </div>
                <div class="ms-panel-body">
                   <form class="needs-validation" novalidate>

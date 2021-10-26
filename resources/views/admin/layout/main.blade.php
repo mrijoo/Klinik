@@ -24,7 +24,7 @@
     <!-- Page Specific CSS (Morris Charts.css) -->
     <link href="{{ URL::asset('admin/assets/css/morris.css'); }}" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ URL::asset('favicon.ico'); }}">
 </head>
 
 <body class="ms-body ms-aside-left-open ms-primary-theme ms-has-quickbar">

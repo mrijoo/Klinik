@@ -17,7 +17,7 @@
             <div class="ms-panel">
                <div class="ms-panel-header ms-panel-custome">
                   <h6>Add Payment</h6>
-                  <a href="payment-list.html" class="ms-text-primary">Payment List</a>
+                  <a href="{{ url('admins/payment/payment-list'); }}" class="ms-text-primary">Payment List</a>
                </div>
                <div class="ms-panel-body">
                   <form class="needs-validation" novalidate>

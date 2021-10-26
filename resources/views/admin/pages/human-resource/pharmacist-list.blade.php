@@ -15,7 +15,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Pharmacist List</h6>
-                    <a href="add-pharmacist.html" class="ms-text-primary">Add Pharmacist</a>
+                    <a href="{{ url('admins/human-resource/add-pharmacist'); }}" class="ms-text-primary">Add Pharmacist</a>
                 </div>
                 <div class="ms-panel-body">
                     <div class="table-responsive">

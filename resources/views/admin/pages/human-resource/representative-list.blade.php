@@ -15,7 +15,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Representative List</h6>
-                    <a href="add-representative.html" class="ms-text-primary">Add Representative</a>
+                    <a href="{{ url('admins/human-resource/add-representative'); }}" class="ms-text-primary">Add Representative</a>
                 </div>
                 <div class="ms-panel-body">
                     <div class="table-responsive">

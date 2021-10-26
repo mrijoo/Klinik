@@ -37,7 +37,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header  ms-panel-custome">
                     <h6>Department List</h6>
-                    <a href="add-department.html" class="ms-text-primary">Add Department</a>
+                    <a href="{{ url('admins/department/add-department'); }}" class="ms-text-primary">Add Department</a>
                 </div>
                 <div class="ms-panel-body">
                     <div class="table-responsive">

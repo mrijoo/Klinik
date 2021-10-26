@@ -19,8 +19,12 @@ Route::get('/', function () {
 });
 
 Route::get('/admins', function () {
-    return redirect('/admins/dashboard');
+    return redirect('/admins/login');
 });
+
+Route::get('/admins/login', [menu::class, 'admin_login']);
+
+Route::get('/admins/register', [menu::class, 'admin_register']);
 
 Route::get('/admins/dashboard', [menu::class, 'admin_dashboard']);
 

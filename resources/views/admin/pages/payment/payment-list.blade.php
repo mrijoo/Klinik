@@ -15,7 +15,7 @@
             <div class="ms-panel">
                <div class="ms-panel-header ms-panel-custome">
                   <h6>Payment List</h6>
-                  <a href="add-payment.html" class="ms-text-primary">Add Payment</a>
+                  <a href="{{ url('admins/payment/add-payment'); }}" class="ms-text-primary">Add Payment</a>
                </div>
                <div class="ms-panel-body">
                   <div class="table-responsive">

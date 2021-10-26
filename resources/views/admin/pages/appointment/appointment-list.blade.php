@@ -15,7 +15,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Appointment List</h6>
-                    <a href="add-appointment.html" class="ms-text-primary">Add Appointment</a>
+                    <a href="{{ url('admins/appointment/add-appointment'); }}" class="ms-text-primary">Add Appointment</a>
                 </div>
                 <div class="ms-panel-body">
                     <div class="table-responsive">

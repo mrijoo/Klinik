@@ -17,7 +17,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Add Doctors</h6>
-                    <a href="doctor-list.html" class="ms-text-primary">Doctors List</a>
+                    <a href="{{ url('admins/doctor/doctor-list'); }}" class="ms-text-primary">Doctors List</a>
                 </div>
                 <div class="ms-panel-body">
                     <form class="needs-validation" novalidate>

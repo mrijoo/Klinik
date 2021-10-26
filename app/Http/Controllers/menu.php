@@ -10,6 +10,14 @@ class menu extends Controller
         return view('admin/index', ['menu' => 'dashboard']);
     }
 
+    public function admin_login() {
+        return view('admin/pages/auth/login', ['menu' => '']);
+    }
+
+    public function admin_register() {
+        return view('admin/pages/auth/register', ['menu' => '']);
+    }
+
     public function admin_doctor_add() {
         return view('admin/pages/doctor/add-doctor', ['menu' => 'doctor_add-doctor']);
     }

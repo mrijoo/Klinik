@@ -20,7 +20,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-4.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-4.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -66,7 +66,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-2.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-2.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -112,7 +112,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-1.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-1.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -158,7 +158,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-5.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-5.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -204,7 +204,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-2.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-2.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -250,7 +250,7 @@
                         <div class="ms-card-body">
                             <div class="media fs-14">
                                 <div class="mr-2 align-self-center">
-                                    <img src="../../assets/img/dashboard/doctor-1.jpg" class="ms-img-round"
+                                    <img src="{{ URL::asset('admin/assets/img/dashboard/doctor-1.jpg'); }}" class="ms-img-round"
                                         alt="people">
                                 </div>
                                 <div class="media-body">
@@ -297,7 +297,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header  ms-panel-custome">
                     <h6>Add Schedule</h6>
-                    <a href="schedule-list.html" class="ms-text-primary">Schedule List</a>
+                    <a href="{{ url('admins/doctor-schedule/schedule-list') }}" class="ms-text-primary">Schedule List</a>
                 </div>
                 <div class="ms-panel-body">
                     <form class="needs-validation" novalidate>

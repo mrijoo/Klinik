@@ -17,7 +17,7 @@
             <div class="ms-panel">
                 <div class="ms-panel-header ms-panel-custome">
                     <h6>Add Bed</h6>
-                    <a href="bed-list.html" class="ms-text-primary">Bed List</a>
+                    <a href="{{ url('admins/bed-manager/bed-list'); }}" class="ms-text-primary">Bed List</a>
                 </div>
                 <div class="ms-panel-body">
                     <form class="needs-validation" novalidate>

@@ -1,0 +1,81 @@
+@extends('admin.layout.main')
+
+@section('title', 'Login')
+@section('main')
+<div class="ms-content-wrapper ms-auth">
+    <div class="ms-auth-container">
+        <div class="ms-auth-col">
+            <div class="ms-auth-bg"></div>
+        </div>
+        <div class="ms-auth-col">
+            <div class="ms-auth-form">
+                <form class="needs-validation" novalidate="">
+                    <h1>Login to Account</h1>
+                    <p>Please enter your email and password to continue</p>
+                    <div class="mb-3">
+                        <label for="validationCustom08">Email Address</label>
+                        <div class="input-group">
+                            <input type="email" class="form-control" id="validationCustom08" placeholder="Email Address"
+                                required="">
+                            <div class="invalid-feedback">
+                                Please provide a valid email.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-2">
+                        <label for="validationCustom09">Password</label>
+                        <div class="input-group">
+                            <input type="password" class="form-control" id="validationCustom09" placeholder="Password"
+                                required="">
+                            <div class="invalid-feedback">
+                                Please provide a password.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="ms-checkbox-wrap">
+                            <input class="form-check-input" type="checkbox" value="">
+                            <i class="ms-checkbox-check"></i>
+                        </label>
+                        <span> Remember Password </span>
+                        <label class="d-block mt-3"><a href="#" class="btn-link" data-toggle="modal"
+                                data-target="#modal-12">Forgot Password?</a></label>
+                    </div>
+                    <button class="btn btn-primary mt-4 d-block w-100" type="submit">Sign In</button>
+                    <span class="d-block text-center my-4">Or</span>
+                    <button type="button" class="btn mt-4 d-block w-100 btn-social-login"> <img
+                            src="{{ URL::asset('admin/assets/img/others/facebook.png'); }}" alt="image"> <span>Login with Facebook</span>
+                    </button>
+                    <a href="{{ url('admins/dashboard') }}"><button type="button" class="btn mt-4 d-block w-100 btn-social-login"> <img
+                            src="{{ URL::asset('admin/assets/img/others/google.png'); }}" alt="image"> <span>Login with Google</span></a>
+                    </button>
+                    <p class="mb-0 mt-3 text-center">Don't have an account? <a class="btn-link"
+                            href="{{ url('admins/register') }}">Create Account</a> </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Forgot Password Modal -->
+<div class="modal fade" id="modal-12" tabindex="-1" role="dialog" aria-labelledby="modal-12">
+    <div class="modal-dialog modal-dialog-centered modal-min" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <i class="flaticon-secure-shield d-block"></i>
+                <h1>Forgot Password?</h1>
+                <p> Enter your email to recover your password </p>
+                <form method="post">
+                    <div class="ms-form-group has-icon">
+                        <input type="text" placeholder="Email Address" class="form-control" name="forgot-password"
+                            value="">
+                        <i class="material-icons">email</i>
+                    </div>
+                    <button type="submit" class="btn btn-primary shadow-none">Reset Password</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection

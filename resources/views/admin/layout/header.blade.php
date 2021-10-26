@@ -72,7 +72,7 @@
         <li class="ms-nav-item ms-nav-user dropdown">
             <a href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <img
                     class="ms-user-img ms-img-round float-right"
-                    src="{{ URL::asset('admin/assets/img/dashboard/doctor-3.jpg'); }}" alt="people"> </a>
+                    src="https://d1ojs48v3n42tp.cloudfront.net/specialities/9d323b3a-2466-4a51-9d24-96a21b97670b.png?type=mobile" alt="people"> </a>
             <ul class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
                 <li class="dropdown-menu-header">
                     <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Welcome, Dr Samuel Deo</span>
@@ -81,24 +81,24 @@
                 <li class="dropdown-divider"></li>
                 <li class="ms-dropdown-list">
                     <a class="media fs-14 p-2"
-                        href="{{ URL::asset('admin/pages/prebuiltadmin/pages/user-profile.html'); }}"> <span><i
+                        href="{{ url('admins/user-profile') }}"> <span><i
                                 class="flaticon-user mr-2"></i> Profile</span> </a>
-                    <a class="media fs-14 p-2" href="{{ URL::asset('admin/pages/apps/email.html'); }}"> <span><i
+                    <a class="media fs-14 p-2" href="{{ url('admins/apps/email') }}"> <span><i
                                 class="flaticon-mail mr-2"></i> Inbox</span> <span
                             class="badge badge-pill badge-info">3</span> </a>
                     <a class="media fs-14 p-2"
-                        href="{{ URL::asset('admin/pages/prebuilt-admin/pages/user-profile.html'); }}"> <span><i
+                        href="{{ url('admins/user-profile') }}"> <span><i
                                 class="flaticon-gear mr-2"></i> Account Settings</span> </a>
                 </li>
                 <li class="dropdown-divider"></li>
                 <li class="dropdown-menu-footer">
                     <a class="media fs-14 p-2"
-                        href="{{ URL::asset('admin/pages/prebuilt-admin/pages/lock-screen.html'); }}"> <span><i
+                        href="{{ url('admins/lock-screen') }}"> <span><i
                                 class="flaticon-security mr-2"></i> Lock</span> </a>
                 </li>
                 <li class="dropdown-menu-footer">
                     <a class="media fs-14 p-2"
-                        href="{{ URL::asset('admin/pages/prebuilt-admin/pages/default-login.html'); }}"> <span><i
+                        href="{{ url('admins/login') }}"> <span><i
                                 class="flaticon-shut-down mr-2"></i> Logout</span> </a>
                 </li>
             </ul>
